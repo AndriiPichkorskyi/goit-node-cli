@@ -26,14 +26,14 @@ Run the following commands in the terminal:
 
 ```bash
 # List all contacts
-node index.js -a list
+node ./src/index.js -a list
 
 # Get contact by ID
-node index.js -a get -i <contactId>
+node ./src/index.js -a get -i <contactId>
 
 # Add a new contact
-node index.js -a add -n "Mango" -e "mango@gmail.com" -p "322-22-22"
+node ./src/index.js -a add -n "Mango" -e "mango@gmail.com" -p "322-22-22"
 
 # Remove a contact
-node index.js -a remove -i <contactId>
+node ./src/index.js -a remove -i <contactId>
 ```
